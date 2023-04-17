@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* 
+  PALETA DE COLORES
+
+  #3d5a80   #98c1d9   #e3ebff  #ece8ef  #e2544d   #293241
+  
+  */
+
+body {
+  background-color: #ece8ef;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.principal {
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.header h1 {
+  position: absolute;
+  font-size: 65px;
+  margin-right: 390px;
+  font-style: italic;
+  margin-top: 60px;
+  color: #293241;
+}
+
+.subtitulo-header {
+  width: 835px;
+  font-size: 28px;
+  text-align: right;
+}
+
+.subtitulo-header h2 {
+  font-weight: 500 !important;
+  font-style: italic;
+}
+/* subtitulo del encabazado*/
+#subtitulo-encabezado {
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  color: #e2544d;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+/* Frase principal de la pagina */
+.fondofrase {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Museo styles */
+.museo {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+/* Museo 2 imagenes */
+.museo-flex {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+/* Museo 2 imagenes */
+.museo-flex2 {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+/* Museo 2 imagenes */
+.museo-flex3 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+/* Museo 2 imagenes */
+.museo-flex4 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.museo-flex4 h2 {
+  color: #98c1d9;
+}
+
+/* titulo historia */
+.subtitulo {
+  color: #e2544d;
+}
+
+/* información en la sección de historia */
+.historia-contenido {
+  margin-top: 40px;
+  padding: 60px;
+  color: #dae6ff;
+  line-height: 26px;
+  text-align: justify;
+}
+
+/* Estilos de la frase principal de la pagina */
+.frase1home {
+  width: 583px;
+  height: 290px;
+  margin: auto;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 168px;
+}
+
+.autor {
+  font-size: 25px;
+  margin-left: 320px;
+  font-weight: 400;
+}
+
+.Informacion-general {
+  margin-top: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+  color: #ece8ef;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.Informacion {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.sin-margin {
+  margin: 0 !important;
+}
+
+.container-location {
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+}
+
+.btn-location {
+  width: 80px;
+  padding: 15px;
+  background-color: #98c1d9;
+  cursor: pointer;
+}
+
+.btn-location a {
+  color: #293241;
+  text-decoration: none;
+}
+
+/* estilo sobre el staff del museo */
+.personal {
+  color: #dae6ff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+nav {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 976px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 150px;
+  align-items: center;
+  padding: 28px;
+  color: black;
+}
+.logomenu {
+  margin-left: -90px;
+}
+.footer {
+  width: 100%;
+  height: 160px;
+  background-color: #ece8ef;
+  margin-top: 90px;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer2 a {
+  color: black;
+}
+
+.footer2 {
+  text-decoration: none;
+  justify-content: center;
+  font-weight: 500;
+  color: #ece8ef;
+  margin-left: -40px;
+  margin-top: -199px;
+}
+
+.f {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  width: 726px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  margin-top: -199px;
+}
+
+.menuazul {
+  color: black;
+}
+
+#menu {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.logoabout {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* 
+  PALETA DE COLORES
+
+  #3d5a80   #98c1d9   #e3ebff  #ece8ef  #e2544d   #293241
+  
+  */
+
+body {
+  background-color: rgb(48, 72, 102);
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.principal {
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+}
+
+.header {
+  width: 800px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.header h1 {
+  font-size: 60px;
+  color: #caecff;
+  margin-top: -65px;
+  margin-left: -132px;
+  line-height: 58px;
+}
+
+.header__titulo {
+  display: grid;
+  text-align: right;
+  font-style: italic;
+}
+
+.header__titulo2 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 300px;
+  margin-left: -230px;
+  position: absolute;
+}
+
+/* Frase principal de la pagina */
+.fondofrase {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Estilos de la frase principal de la pagina */
+.frase1home {
+  width: 583px;
+  height: 290px;
+  margin: auto;
+  margin-top: -350px;
+  color: #ece8ef;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.frase2home {
+  width: 583px;
+  height: 290px;
+  margin: auto;
+  color: #3d5a80;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+}
+
+.container-frase {
+  display: flex;
+  justify-content: center;
+}
+
+.frase3home {
+  width: 1000px;
+  height: 290px;
+  margin: auto;
+  color: #3d5a80;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+.subtitulo {
+  margin-top: 8rem !important;
+  color: #98c1d9;
+}
+
+.Informacion-general {
+  text-align: justify;
+  color: #ece8ef;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.Informacion {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+}
+
+.p-especial {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.p-especial2 {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.p-especial3 {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.p-especial4 {
+  display: flex;
+  gap: 95px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -30px;
+  justify-content: center;
+}
+
+.center {
+  display: grid;
+}
+
+.center p {
+  margin-bottom: -15px;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+}
+
+.center img {
+  margin: auto;
+}
+
+.p-20 {
+  padding: 5px;
+}
+
+.artworks {
+  margin-top: 140px;
+  color: #3d5a80;
+  background-color: #dae6ff;
+  padding: 28px;
+  position: relative;
+}
+
+.artworks h1 {
+  margin-bottom: 170px;
+}
+nav {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 976px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 150px;
+  align-items: center;
+  padding: 28px;
+  color: white;
+}
+
+.autor {
+  text-align: right;
+  font-weight: 300;
+  font-size: 30px;
+  margin-right: 90px;
+}
+
+nav a {
+  color: white;
+}
+.logomenu {
+  margin-left: -90px;
+}
+.footer {
+  width: 100%;
+  height: 160px;
+  background-color: #ece8ef;
+  margin-top: 90px;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer2 a {
+  color: black;
+}
+
+.footer2 {
+  text-decoration: none;
+  justify-content: center;
+  font-weight: 500;
+  color: #ece8ef;
+  margin-left: -40px;
+  margin-top: -199px;
+}
+
+.f {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  width: 726px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  margin-top: -199px;
+}
+
+.menuazul {
+  color: #98c1d9;
+}
+
+#menu {
+  text-decoration: none;
+}
+
+a {
+  color: #dae6ff;
+}
+
+.logoabout {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}

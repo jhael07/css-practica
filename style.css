@@ -1,0 +1,825 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: #293241;
+  position: relative;
+}
+
+.principal {
+  margin: 0 auto;
+  width: 900px;
+  height: 10000px;
+  position: relative;
+}
+
+nav {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 976px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 150px;
+  align-items: center;
+  padding: 28px;
+}
+
+.footer {
+  width: 100%;
+  height: 160px;
+  background-color: #2a4262;
+  margin-top: 90px;
+}
+
+.footer2 {
+  text-decoration: none;
+  justify-content: center;
+  font-weight: 500;
+  color: #ece8ef;
+  margin-left: -40px;
+  margin-top: -199px;
+}
+
+.f {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  width: 726px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  margin-top: -199px;
+}
+
+.ff {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 814px;
+  gap: 30px;
+  margin-left: 100px;
+  display: flex;
+  margin: auto;
+  padding-top: 48px;
+  margin-bottom: 150px;
+  align-items: center;
+  padding: 28px;
+}
+.menuazul {
+  margin-left: -6px;
+}
+
+.logoazul {
+  margin-left: -12px;
+}
+
+#menu {
+  text-decoration: none;
+}
+
+a {
+  color: #dae6ff;
+}
+
+.logonaranja {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.logoazul {
+  margin-left: -40px;
+}
+
+.artistas {
+  margin: 0 auto;
+  width: 908px;
+  height: 1000px;
+}
+
+.filaartista {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.art1 {
+  height: 221px;
+  z-index: 1;
+}
+
+.art2 {
+  margin-top: 160px;
+  height: 233px;
+  margin-left: -14px;
+  z-index: 2;
+}
+
+.art3 {
+  margin-top: 79px;
+  height: 259px;
+  margin-left: -6px;
+  z-index: 2;
+}
+
+.art4 {
+  margin-top: 25px;
+  height: 255px;
+  z-index: 2;
+}
+
+.art5 {
+  margin-top: 98px;
+  height: 251px;
+  margin-left: -5px;
+  z-index: 2;
+}
+
+.cuadrados {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  position: absolute;
+  margin-top: 53px;
+}
+.cuadrado1 {
+  height: 962px;
+  width: 200px;
+  background-color: #3d5a80;
+}
+
+.cuadrado2 {
+  height: 796px;
+  width: 207px;
+  margin-left: -13px;
+  background-color: #98c1d9;
+  margin-top: 166px;
+}
+
+.cuadrado3 {
+  height: 879px;
+  width: 193px;
+  background-color: #e3ebff;
+  margin-top: 83px;
+}
+
+.cuadrado4 {
+  height: 935px;
+  width: 211px;
+  background-color: #ece8ef;
+  margin-top: 27px;
+}
+
+.cuadrado5 {
+  height: 862px;
+  width: 206px;
+  background-color: #e2544d;
+  margin-top: 100px;
+  margin-left: -4px;
+}
+
+.frase1home {
+  width: 583px;
+  height: 290px;
+  margin: auto;
+  margin-top: -302px;
+  color: #dae6ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.fondofrase {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.autor {
+  font-size: 25px;
+  margin-left: 320px;
+  font-weight: 400;
+}
+
+.abouthome {
+  width: 900px;
+  height: 775px;
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+}
+
+.subtitulo {
+  font-family: "Montserrat", sans-serif;
+  color: #e2544d;
+  font-size: 45px;
+  font-weight: 800;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.logoabout {
+  width: 439px;
+  z-index: 2;
+}
+
+.textabout {
+  font-weight: 400;
+  font-size: 17px;
+  color: #e3ebff;
+  width: 430px;
+  text-align: justify;
+  margin-top: 80px;
+}
+
+.columna1 {
+  flex-direction: column;
+  display: flex;
+  margin-top: 193px;
+  width: 595px;
+  height: 480px;
+}
+
+.columna2 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #e3ebff;
+  width: 477px;
+  text-align: justify;
+  margin-top: 172px;
+}
+
+.fotomuseo {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  margin-top: -100px;
+}
+
+.conocemas {
+  background-color: #dae6ff;
+  width: 134px;
+  margin-left: 280px;
+  font-size: 15px;
+  color: #091e3a;
+  font-weight: 600;
+}
+
+.fundadorahome {
+  width: 900px;
+  height: 550px;
+  margin: auto;
+  margin-top: 62px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+}
+
+.fotofundadora {
+  width: 350px;
+  height: 350px;
+  margin-top: 150px;
+  margin-left: 72px;
+}
+
+.textfundadora {
+  font-weight: 500;
+  font-size: 17px;
+  color: #e3ebff;
+  width: 379px;
+  margin-left: 32px;
+  margin-top: 260px;
+  text-align: justify;
+  height: 131px;
+}
+
+.fondofrase2 {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.artistashome {
+  width: 900px;
+  height: 2000px;
+  margin: auto;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.fraseartista {
+  height: 280px;
+  display: flex;
+  margin-left: 159px;
+  margin-top: 161px;
+}
+
+.arti1 {
+  margin-top: 100px;
+  background-color: #3d5a80;
+  width: 752px;
+  height: 218px;
+  margin-left: 236px;
+}
+
+.imgdv {
+  height: 240px;
+  margin-left: 470px;
+}
+
+.ld {
+  margin-left: 248px;
+  font-size: 20px;
+  color: #e3ebff;
+  font-weight: 700;
+  margin-top: -199px;
+}
+.textld {
+  font-size: 16px;
+  font-weight: 500;
+  width: 366px;
+  color: #e3ebff;
+  text-align: justify;
+  margin-left: 73px;
+}
+
+.linkld {
+  margin-left: 362px;
+  color: #e3ebff;
+}
+
+.arti2 {
+  margin-top: 60px;
+  background-color: #98c1d9;
+  width: 772px;
+  height: 239px;
+  margin-left: -99px;
+}
+
+.imgdl {
+  height: 270px;
+  margin-left: 100px;
+}
+
+.dl {
+  font-size: 20px;
+  color: #293241;
+  font-weight: 700;
+  margin-top: -229px;
+  margin-left: 347px;
+}
+.textdl {
+  font-size: 16px;
+  font-weight: 500;
+  width: 366px;
+  color: #293241;
+  text-align: justify;
+  margin-left: 347px;
+}
+
+.linkdl {
+  color: #293241;
+  margin-left: 347px;
+}
+
+.arti3 {
+  margin-top: 60px;
+  background-color: #e3ebff;
+  width: 752px;
+  height: 230px;
+  margin-left: 236px;
+}
+
+.imgpc {
+  height: 251px;
+  width: 196px;
+  margin-left: 470px;
+}
+
+.pc {
+  margin-left: 294px;
+  font-size: 20px;
+  color: #e2544d;
+  font-weight: 700;
+  margin-top: -213px;
+}
+.textpc {
+  font-size: 16px;
+  font-weight: 500;
+  width: 366px;
+  color: #e2544d;
+  text-align: justify;
+  margin-left: 73px;
+}
+
+.linkpc {
+  margin-left: 362px;
+  color: #e2544d;
+}
+
+.arti4 {
+  margin-top: 60px;
+  background-color: #ece8ef;
+  width: 772px;
+  height: 239px;
+  margin-left: -100px;
+}
+
+.imgfk {
+  height: 260px;
+  margin-left: 100px;
+  width: 209px;
+}
+
+.fk {
+  font-size: 20px;
+  font-weight: 700;
+  color: #293241;
+  margin-top: -211px;
+  margin-left: 347px;
+}
+.textfk {
+  font-size: 16px;
+  font-weight: 500;
+  width: 366px;
+  color: #293241;
+  text-align: justify;
+  margin-left: 347px;
+}
+
+.linkfk {
+  color: #293241;
+  margin-left: 347px;
+}
+
+.arti5 {
+  margin-top: 60px;
+  background-color: #e2544d;
+  width: 752px;
+  height: 230px;
+  margin-left: 236px;
+}
+
+.imgvg {
+  height: 251px;
+  width: 196px;
+  margin-left: 470px;
+}
+
+.vg {
+  margin-left: 294px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ece8ef;
+  margin-top: -223px;
+}
+.textvg {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ece8ef;
+  width: 366px;
+  text-align: justify;
+  margin-left: 73px;
+}
+
+.linkvg {
+  margin-left: 362px;
+  color: #ece8ef;
+}
+
+.enjoy {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.enjoymuseum {
+  width: 839px;
+  height: px;
+  margin: auto;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  background-color: #98c1d9;
+  padding: 30px;
+}
+
+.fila1 {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.obra1 {
+  width: 195px;
+  margin-top: 20px;
+}
+.obra4 {
+  width: 238px;
+  margin-top: 20px;
+}
+.obra3 {
+  width: 164px;
+  margin-top: 20px;
+}
+.obra7 {
+  width: 167px;
+  margin-top: 20px;
+}
+
+.obra2 {
+  width: 164px;
+}
+.obra8 {
+  width: 169px;
+}
+.obra5 {
+  width: 278px;
+}
+.obra11 {
+  width: 155px;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: #091e3a;
+}
+.obr1 {
+  width: 240px;
+  height: 350px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.obr4 {
+  width: 290px;
+  height: 350px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.obr3 {
+  width: 202px;
+  height: 350px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.obr7 {
+  width: 171px;
+  height: 350px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.fila2 {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.obr2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.obr8 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.obr5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.obr11 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #091e3a;
+}
+
+.reseñas {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  margin-top: 80px;
+}
+.clientes1 {
+  width: 130px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.colum1reseña {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 69px;
+  margin-left: 60px;
+  margin-top: 185px;
+}
+
+.colum2reseña {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 51px;
+  margin-left: 213px;
+  margin-top: 173px;
+  width: 203px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #dae6ff;
+}
+.texto1reseñas {
+  text-align: justify;
+}
+
+.clientes2 {
+  width: 130px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.colum3reseña {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 69px;
+  margin-left: 478px;
+  margin-top: 185px;
+}
+
+.colum4reseña {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 51px;
+  margin-left: 625px;
+  margin-top: 173px;
+  width: 203px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #dae6ff;
+}
+.texto2reseñas {
+  text-align: justify;
+}
+
+.eventos {
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+}
+
+.filaeventos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 912px;
+}
+
+.eventos1 {
+  width: 198px;
+  margin-top: 180px;
+}
+.eventos2 {
+  width: 208px;
+  margin-top: 179px;
+}
+.eventos3 {
+  width: 202px;
+  margin-top: 178px;
+  margin-left: 4px;
+}
+.eventos4 {
+  width: 207px;
+  margin-top: 160px;
+}
+
+.tituloeventos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  width: 200px;
+  color: #dae6ff;
+}
+
+.textoreseña {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  width: 220px;
+  color: #dae6ff;
+}
+
+.contacts {
+  width: 897px;
+  height: 500px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  background-color: #3d5a80;
+}
+
+.cuadros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px;
+  margin-left: 75px;
+  position: absolute;
+  margin-top: 170px;
+}
+.cuadro1 {
+  height: 150px;
+  width: 180px;
+  background-color: #dae6ff;
+}
+
+.cuadro2 {
+  height: 150px;
+  width: 180px;
+  background-color: #dae6ff;
+}
+
+.cuadro3 {
+  height: 150px;
+  width: 180px;
+  background-color: #dae6ff;
+}
+
+.cuadro4 {
+  height: 150px;
+  width: 180px;
+  background-color: #dae6ff;
+}
+
+.titulocontacts {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  color: #091e3a;
+}
+
+.textcontacts {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #091e3a;
+}
+
+.textcontacts2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #dae6ff;
+}
+
+.linkcontacts {
+  margin-top: -100px;
+  margin-left: 330px;
+}
